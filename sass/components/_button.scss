@@ -1,0 +1,68 @@
+$color:linear-gradient(to left, #6156f9, #1a129f);
+$hover:linear-gradient(135deg, red, blue);
+$radius: 25px;
+
+//commun
+.btn_commun {
+    background-image: $color;
+    border-radius: $radius;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: #000;
+        background: $hover;
+    }
+
+
+}
+
+//begin
+#btn_begin {
+    padding: 13px 40px;
+}
+
+//Who We Are
+#btn_weare {
+    padding: 16px 52px;
+    margin-top: 35px;
+}
+
+//What We Offer
+#btn_what {
+    padding: 6px 18.5px;
+    margin-left: 187.3px;
+    bottom: 45px;
+
+}
+
+//Our Pricing
+#btn_our {
+    padding: 15px 40.4px;
+}
+
+#except {
+    padding: 15px 40.4px;
+    color: #42495b;
+    background-image: none;
+    border: 1px solid #1000ff;
+    background-repeat: no-repeat;
+
+    //degradé sur le border arrondi
+
+    // width: 170px;
+    // height: 52px;
+    // border: double 2px transparent;
+    // background-image: linear-gradient(white, white), radial-gradient(circle at top left, #6156f9,#1a129f);
+    // background-origin: border-box;
+    // background-clip: content-box, border-box;
+}
+
+
+
+//Newsletter
+#btn_news {
+    padding: 15px 45px;
+}

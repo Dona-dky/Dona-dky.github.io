@@ -1,0 +1,268 @@
+/* RESPONSIVE */
+
+@media (min-width: 740px) and (max-width: 1024px) {
+
+    body{
+    header {
+        height: 1200px;
+        nav {
+            a {
+    
+                img {
+                    margin-top: 35.6px;
+                    margin-left: 80px;
+                }
+    
+                h1 {
+                    margin: 80px 0 0 12px;
+                    font-size: 40px;
+                    font-weight: bold;
+                    line-height: 0.64;
+                    text-align: left;
+                    color: #484848;
+                }
+            }
+    
+        }
+    
+        ul {
+            width: 352px;
+            flex-flow: column wrap;
+    
+            li {
+                a {
+                    text-align: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    justify-content: center;
+                }
+            }
+        }
+    
+    }
+    
+    .letoutheader {
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    
+    .monheader {
+        display: flex;
+        flex-wrap: wrap;
+    
+        .gauche {
+            position: absolute;
+            margin-left: 70px;
+            margin-top: 305px;
+    
+            .leslogos {
+                flex-flow: column;
+    
+                .trait {
+                    margin-top: 40px;
+                    width: 4px;
+                    height: 29px;
+                    background-image: linear-gradient(to left, #6156f9 112%, #1a129f 50%);
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+    
+                img {
+                    margin-top: 40px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    
+                }
+            }
+        }
+    }
+    
+    .txtheader {
+        display: block;
+        margin: 145px 0 0 150px;
+    }
+    
+    .imgheader {
+        margin-right: 0px;
+        margin-left: 65px;
+        margin-top: 25px;
+    }
+    
+    .imgdown {
+        display: block;
+    
+    
+        border-radius: 50%;
+        text-align: center;
+        width: 80px;
+        height: 80px;
+        box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+        background-color: #ffffff;
+        margin: 0 auto;
+    
+        img {
+            margin: 20px auto;
+        }
+    }
+    
+    
+    
+    
+    
+    .weare {
+        display: flex;
+        flex-wrap: wrap;
+    
+        section {
+            width: calc((100% / 2)-80px);
+        }
+    
+        section:nth-child(2) {
+            width: calc(103% / 2);
+            background-image: url("../../img/background-we-are.png");
+            background-size: 100% 87%;
+            background-repeat: no-repeat;
+            background-position: right 0 top 0;
+        }
+    
+        .textweare {
+            margin-left: 84.3px;
+            margin-top: 102px;
+    
+            p {
+                width: 533px;
+                height: 240px;
+                margin: 14px 0 0;
+            }
+        }
+    
+        #quote {
+            margin-left: 80px;
+            margin-top: 50px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .blocontenu {
+        background-image: url("../../img/background-service.png");
+        background-repeat: no-repeat;
+        background-position: right 50px top 420px;
+        background-size: 93% 60%;
+        height: 1900px;
+        margin-top: 120px;
+    
+        section {
+            margin: 0 40px;
+    
+        }
+    
+        .txtcontenu {
+            padding-left: 35.3px;
+            margin-bottom: 91.8px;
+        }
+    
+        .lesblocs {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+    
+            .lebloc {
+                width: calc(80%/2);
+                height: 410.2px;
+                margin-bottom: 111.8px;
+                padding: 21.4px 20.6px 27.3px;
+                border-radius: 36px;
+                box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.1);
+                background-color: #ffffff;
+    
+
+                .petitexte {
+                    width: 270px;
+                    height: 130px;
+                    margin-bottom: 35px;
+                    font-family: Lato;
+                }
+
+                #btn_what {
+                    padding: 6px 18.5px;
+                
+                }
+    
+            }
+        }
+    }
+    
+    
+    
+    
+    .blocpricing {
+        height: 1818px;
+        
+    
+        section {
+            margin: 0 160px;
+        }
+    
+        .txtpricing {
+            margin-bottom: 60px;
+            padding-top: 90px;
+        }
+    
+        .lesblocs2 {
+    
+            .lebloc2 {
+                margin-bottom: 35px;
+    
+            }
+        }
+    }
+    
+    .endpage {
+        
+    
+        .end4part {
+            padding-left: 0px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 800px;
+    
+            #special {
+                margin-right: 0px;
+            }
+    
+            #special2 {
+                margin-right: 0px;
+            }
+    
+            #special3 {
+                margin-right: 0px;
+    
+                #suitepart1 {
+                    margin-left: 10px;
+                }
+    
+                ul {
+                    margin-top: 60px;
+                    margin-left: -58px;
+    
+    
+    
+                }
+            }
+    
+            #special4 {
+                width: 145px;
+            }
+        }
+    
+    }
+
+}
+}

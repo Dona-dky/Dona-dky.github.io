@@ -1,0 +1,606 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.avantitrepetit {
+  margin: 0 6.4px 6px 0;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.35;
+  color: #7e76f9; }
+
+.grostitre {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.52;
+  color: #42495b; }
+
+.aprestitre {
+  color: #7a839e;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal; }
+
+.txtheader h1 {
+  width: 547px;
+  font-size: 50px;
+  line-height: 1.6;
+  color: #42495b; }
+
+.txtheader h1:nth-child(2) {
+  font-size: 74px;
+  font-weight: bold; }
+
+.txtheader p {
+  font-size: 16px;
+  margin-bottom: 34px;
+  max-width: 341px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #7a839e; }
+
+#wow {
+  margin-bottom: 8px;
+  font-family: Lato;
+  font-size: 25px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal; }
+
+.petititre {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #42495b;
+  margin-bottom: 38px;
+  margin-top: 37.6px; }
+
+.petitexte {
+  width: 302.3px;
+  height: 130px;
+  margin-bottom: 51px;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: left;
+  color: #42495b; }
+
+#paslui {
+  width: 316px; }
+
+.moyentitre {
+  height: 37px;
+  margin-bottom: 69px;
+  font-family: Lobster;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: center;
+  color: #42495b; }
+
+.moyentexte {
+  width: 290.5px;
+  height: 76px;
+  margin: 69px auto 36px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: #7a839e; }
+
+.price {
+  height: 43px;
+  margin: 36px auto 40px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1000ff; }
+
+.txtavantfooter h2 {
+  display: inline-flex;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #42495b;
+  margin-right: 8px; }
+
+.txtavantfooter h2:nth-child(3) {
+  font-weight: 600; }
+
+.part1 .spec {
+  margin-bottom: 24.6px;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 0.51;
+  text-align: center;
+  color: #ffffff; }
+  .part1 .spec :nth-child(2) {
+    margin: 24.6px 0 23px;
+    font-size: 19px;
+    line-height: 1.81;
+    color: #ffffff;
+    font-size: 31px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal; }
+
+.part1 .unpetititre {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff; }
+
+.part1 ul {
+  margin-top: 30px; }
+  .part1 ul li {
+    list-style: none; }
+    .part1 ul li a {
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.25;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      text-decoration: none; }
+
+.btn_commun {
+  background-image: linear-gradient(to left, #6156f9, #1a129f);
+  border-radius: 25px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  text-decoration: none; }
+  .btn_commun:hover {
+    color: #000;
+    background: linear-gradient(135deg, red, blue); }
+
+#btn_begin {
+  padding: 13px 40px; }
+
+#btn_weare {
+  padding: 16px 52px;
+  margin-top: 35px; }
+
+#btn_what {
+  padding: 6px 18.5px;
+  margin-left: 187.3px;
+  bottom: 45px; }
+
+#btn_our {
+  padding: 15px 40.4px; }
+
+#except {
+  padding: 15px 40.4px;
+  color: #42495b;
+  background-image: none;
+  border: 1px solid #1000ff;
+  background-repeat: no-repeat; }
+
+#btn_news {
+  padding: 15px 45px; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+header {
+  height: 670px;
+  background-image: url("../../img/wave.svg");
+  background-size: 876px 680px;
+  background-repeat: no-repeat;
+  background-position: right -12px top -20px;
+  padding-bottom: 152px; }
+  header nav {
+    display: flex;
+    flex-wrap: wrap; }
+    header nav a {
+      display: flex;
+      text-decoration: none; }
+      header nav a :first-child {
+        margin-top: 20.9px;
+        position: relative; }
+      header nav a img {
+        margin-top: 35.6px;
+        margin-left: 150px; }
+      header nav a h1 {
+        margin: 80px 0 0 12px;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 0.64;
+        text-align: left;
+        color: #484848; }
+  header ul {
+    width: 352px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    position: absolute;
+    right: calc(21.73% - 77px); }
+    header ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: uppercase; }
+
+.letoutheader {
+  display: flex;
+  flex-wrap: wrap; }
+
+.monheader {
+  display: flex; }
+  .monheader .gauche {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 305px; }
+    .monheader .gauche .leslogos {
+      flex-flow: column; }
+      .monheader .gauche .leslogos .trait {
+        margin-top: 40px;
+        width: 4px;
+        height: 29px;
+        background-image: linear-gradient(to left, #6156f9 112%, #1a129f 50%);
+        margin-left: auto;
+        margin-right: auto; }
+      .monheader .gauche .leslogos img {
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto; }
+
+.txtheader {
+  display: block;
+  margin: 145px 96px 0 150px; }
+
+.imgheader {
+  margin-right: 130px; }
+
+.imgdown {
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+  background-color: #ffffff;
+  margin: 0 auto; }
+  .imgdown img {
+    margin: 20px auto; }
+
+.weare {
+  display: flex;
+  flex-wrap: wrap; }
+  .weare section {
+    width: calc((100% / 2)-80px); }
+  .weare section:nth-child(2) {
+    width: calc(103% / 2);
+    background-image: url("../../img/background-we-are.png");
+    background-size: 100% 87%;
+    background-repeat: no-repeat;
+    background-position: right 0 top 0; }
+  .weare .textweare {
+    margin-left: 84.3px;
+    margin-top: 102px; }
+    .weare .textweare p {
+      width: 533px;
+      height: 240px;
+      margin: 14px 0 0; }
+  .weare #quote {
+    margin-left: 80px;
+    margin-top: 50px; }
+
+.blocontenu {
+  background-image: url("../../img/background-service.png");
+  background-repeat: no-repeat;
+  background-position: right 50px top 420px;
+  background-size: 93% 60%;
+  height: 1500px;
+  margin-top: 120px; }
+  .blocontenu section {
+    margin: 0 160px; }
+  .blocontenu .txtcontenu {
+    padding-left: 35.3px;
+    margin-bottom: 91.8px; }
+  .blocontenu .lesblocs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; }
+    .blocontenu .lesblocs .lebloc {
+      width: calc(80%/3);
+      height: 410.2px;
+      margin-bottom: 111.8px;
+      padding: 21.4px 20.6px 27.3px;
+      border-radius: 36px;
+      box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.1);
+      background-color: #ffffff; }
+      .blocontenu .lesblocs .lebloc .c_image {
+        height: 90px; }
+      .blocontenu .lesblocs .lebloc .imgbloc {
+        margin-left: auto;
+        margin-right: auto; }
+
+.blocpricing {
+  background-color: rgba(126, 118, 249, 0.15);
+  height: 818px;
+  text-align: center; }
+  .blocpricing section {
+    margin: 0 160px; }
+  .blocpricing .txtpricing {
+    margin-bottom: 60px;
+    padding-top: 90px; }
+  .blocpricing .lesblocs2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; }
+    .blocpricing .lesblocs2 .lebloc2 {
+      width: 300px;
+      padding: 57px 39.4px 53px 40.1px;
+      border-radius: 26px;
+      background-color: #ffffff; }
+    .blocpricing .lesblocs2 #blocspecial {
+      box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16); }
+
+.avantfooter {
+  height: 422px; }
+  .avantfooter section {
+    margin: 0 160px;
+    text-align: center; }
+  .avantfooter .txtavantfooter {
+    margin-bottom: 60px;
+    padding-top: 90px; }
+
+form {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center; }
+
+.autocomplete {
+  position: relative;
+  display: inline-block; }
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px; }
+
+input[type=search] {
+  background-color: #f1f1f1;
+  width: 430px;
+  height: 52px;
+  padding: 18px 0 17px 30px;
+  background-color: #f6f7fb;
+  margin-right: 26px; }
+
+.endpage {
+  display: flex;
+  flex-wrap: wrap;
+  height: 566.3px;
+  background-size: 100% 100%;
+  background-image: url("../../img/footer.png");
+  background-repeat: no-repeat;
+  background-position: left 0 bottom 0; }
+  .endpage .end4part {
+    display: flex;
+    width: 100%;
+    margin-top: 253.3px;
+    padding-left: 210px; }
+    .endpage .end4part .part1 {
+      height: 230px; }
+      .endpage .end4part .part1 .leslogos {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        bottom: 36px; }
+    .endpage .end4part #special {
+      margin-right: 168px; }
+    .endpage .end4part #special2 {
+      width: 115px;
+      margin-right: 135px; }
+    .endpage .end4part #special3 {
+      margin-right: 150px;
+      padding: 0;
+      display: inline-flex; }
+      .endpage .end4part #special3 #suitepart1 {
+        margin-left: 10px; }
+      .endpage .end4part #special3 ul {
+        margin-top: 60px;
+        margin-left: -58px; }
+    .endpage .end4part #special4 {
+      width: 145px; }
+      .endpage .end4part #special4 li {
+        display: inline-flex; }
+        .endpage .end4part #special4 li img {
+          margin-right: 7px; }
+
+/* RESPONSIVE */
+@media (min-width: 740px) and (max-width: 1024px) {
+  body header {
+    height: 1200px; }
+    body header nav a img {
+      margin-top: 35.6px;
+      margin-left: 80px; }
+    body header nav a h1 {
+      margin: 80px 0 0 12px;
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 0.64;
+      text-align: left;
+      color: #484848; }
+    body header ul {
+      width: 352px;
+      flex-flow: column wrap; }
+      body header ul li a {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center; }
+  body .letoutheader {
+    display: flex;
+    flex-wrap: wrap; }
+  body .monheader {
+    display: flex;
+    flex-wrap: wrap; }
+    body .monheader .gauche {
+      position: absolute;
+      margin-left: 70px;
+      margin-top: 305px; }
+      body .monheader .gauche .leslogos {
+        flex-flow: column; }
+        body .monheader .gauche .leslogos .trait {
+          margin-top: 40px;
+          width: 4px;
+          height: 29px;
+          background-image: linear-gradient(to left, #6156f9 112%, #1a129f 50%);
+          margin-left: auto;
+          margin-right: auto; }
+        body .monheader .gauche .leslogos img {
+          margin-top: 40px;
+          margin-left: auto;
+          margin-right: auto; }
+  body .txtheader {
+    display: block;
+    margin: 145px 0 0 150px; }
+  body .imgheader {
+    margin-right: 0px;
+    margin-left: 65px;
+    margin-top: 25px; }
+  body .imgdown {
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+    background-color: #ffffff;
+    margin: 0 auto; }
+    body .imgdown img {
+      margin: 20px auto; }
+  body .weare {
+    display: flex;
+    flex-wrap: wrap; }
+    body .weare section {
+      width: calc((100% / 2)-80px); }
+    body .weare section:nth-child(2) {
+      width: calc(103% / 2);
+      background-image: url("../../img/background-we-are.png");
+      background-size: 100% 87%;
+      background-repeat: no-repeat;
+      background-position: right 0 top 0; }
+    body .weare .textweare {
+      margin-left: 84.3px;
+      margin-top: 102px; }
+      body .weare .textweare p {
+        width: 533px;
+        height: 240px;
+        margin: 14px 0 0; }
+    body .weare #quote {
+      margin-left: 80px;
+      margin-top: 50px; }
+  body .blocontenu {
+    background-image: url("../../img/background-service.png");
+    background-repeat: no-repeat;
+    background-position: right 50px top 420px;
+    background-size: 93% 60%;
+    height: 1900px;
+    margin-top: 120px; }
+    body .blocontenu section {
+      margin: 0 40px; }
+    body .blocontenu .txtcontenu {
+      padding-left: 35.3px;
+      margin-bottom: 91.8px; }
+    body .blocontenu .lesblocs {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between; }
+      body .blocontenu .lesblocs .lebloc {
+        width: calc(80%/2);
+        height: 410.2px;
+        margin-bottom: 111.8px;
+        padding: 21.4px 20.6px 27.3px;
+        border-radius: 36px;
+        box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.1);
+        background-color: #ffffff; }
+        body .blocontenu .lesblocs .lebloc .petitexte {
+          width: 270px;
+          height: 130px;
+          margin-bottom: 35px;
+          font-family: Lato; }
+        body .blocontenu .lesblocs .lebloc #btn_what {
+          padding: 6px 18.5px; }
+  body .blocpricing {
+    height: 1818px; }
+    body .blocpricing section {
+      margin: 0 160px; }
+    body .blocpricing .txtpricing {
+      margin-bottom: 60px;
+      padding-top: 90px; }
+    body .blocpricing .lesblocs2 .lebloc2 {
+      margin-bottom: 35px; }
+  body .endpage .end4part {
+    padding-left: 0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 800px; }
+    body .endpage .end4part #special {
+      margin-right: 0px; }
+    body .endpage .end4part #special2 {
+      margin-right: 0px; }
+    body .endpage .end4part #special3 {
+      margin-right: 0px; }
+      body .endpage .end4part #special3 #suitepart1 {
+        margin-left: 10px; }
+      body .endpage .end4part #special3 ul {
+        margin-top: 60px;
+        margin-left: -58px; }
+    body .endpage .end4part #special4 {
+      width: 145px; } }

@@ -1,0 +1,384 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+header {
+    height: 670px;
+    background-image: url("../../img/wave.svg");
+    background-size: 876px 680px;
+    background-repeat: no-repeat;
+    background-position: right -12px top -20px;
+    padding-bottom: 152px;
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+
+
+        a {
+            display: flex;
+            text-decoration: none;
+
+            :first-child {
+                margin-top: 20.9px;
+                position: relative;
+            }
+
+            img {
+                margin-top: 35.6px;
+                margin-left: 150px;
+            }
+
+            h1 {
+                margin: 80px 0 0 12px;
+                font-size: 40px;
+                font-weight: bold;
+                line-height: 0.64;
+                text-align: left;
+                color: #484848;
+            }
+        }
+
+    }
+
+    ul {
+        width: 352px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 55px;
+        position: absolute;
+        right: calc(21.73% - 77px);
+
+        li {
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+}
+
+.letoutheader {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.monheader {
+    display: flex;
+
+    .gauche {
+        position: absolute;
+        margin-left: 70px;
+        margin-top: 305px;
+
+        .leslogos {
+            flex-flow: column;
+
+            .trait {
+                margin-top: 40px;
+                width: 4px;
+                height: 29px;
+                background-image: linear-gradient(to left, #6156f9 112%, #1a129f 50%);
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            img {
+                margin-top: 40px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}
+
+.txtheader {
+    display: block;
+    margin: 145px 96px 0 150px;
+}
+
+.imgheader {
+    margin-right: 130px;
+}
+
+.imgdown {
+    display: block;
+
+
+    border-radius: 50%;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+    background-color: #ffffff;
+    margin: 0 auto;
+
+    img {
+        margin: 20px auto;
+    }
+}
+
+
+
+
+
+.weare {
+    display: flex;
+    flex-wrap: wrap;
+
+    section {
+        width: calc((100% / 2)-80px);
+    }
+
+    section:nth-child(2) {
+        width: calc(103% / 2);
+        background-image: url("../../img/background-we-are.png");
+        background-size: 100% 87%;
+        background-repeat: no-repeat;
+        background-position: right 0 top 0;
+    }
+
+    .textweare {
+        margin-left: 84.3px;
+        margin-top: 102px;
+
+        p {
+            width: 533px;
+            height: 240px;
+            margin: 14px 0 0;
+        }
+    }
+
+    #quote {
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+.blocontenu {
+    background-image: url("../../img/background-service.png");
+    background-repeat: no-repeat;
+    background-position: right 50px top 420px;
+    background-size: 93% 60%;
+    height: 1500px;
+    margin-top: 120px;
+
+    section {
+        margin: 0 160px;
+
+    }
+
+    .txtcontenu {
+        padding-left: 35.3px;
+        margin-bottom: 91.8px;
+    }
+
+    .lesblocs {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        .lebloc {
+            width: calc(80%/3);
+            height: 410.2px;
+            margin-bottom: 111.8px;
+            padding: 21.4px 20.6px 27.3px;
+            border-radius: 36px;
+            box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.1);
+            background-color: #ffffff;
+
+            .c_image {
+                height: 90px;
+            }
+
+            .imgbloc {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        }
+    }
+}
+
+
+
+
+.blocpricing {
+    background-color: rgba(126, 118, 249, 0.15);
+    height: 818px;
+    text-align: center;
+
+    section {
+        margin: 0 160px;
+    }
+
+    .txtpricing {
+        margin-bottom: 60px;
+        padding-top: 90px;
+    }
+
+    .lesblocs2 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        .lebloc2 {
+            //width: calc(80%/3);
+            width: 300px;
+            padding: 57px 39.4px 53px 40.1px;
+            border-radius: 26px;
+            background-color: #ffffff;
+
+        }
+
+        #blocspecial {
+            box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+        }
+    }
+}
+
+
+.avantfooter {
+    height: 422px;
+
+    section {
+        margin: 0 160px;
+        text-align: center;
+    }
+
+    .txtavantfooter {
+        margin-bottom: 60px;
+        padding-top: 90px;
+    }
+}
+
+form {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type=search] {
+    background-color: #f1f1f1;
+    width: 430px;
+    height: 52px;
+    padding: 18px 0 17px 30px;
+    background-color: #f6f7fb;
+    margin-right: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.endpage {
+    display: flex;
+    flex-wrap: wrap;
+    height: 566.3px;
+    background-size: 100% 100%;
+    background-image: url("../../img/footer.png");
+    background-repeat: no-repeat;
+    background-position: left 0 bottom 0;
+
+    .end4part {
+        display: flex;
+        width: 100%;
+        margin-top: 253.3px;
+        padding-left: 210px;
+
+
+
+        .part1 {
+            height: 230px;
+
+            .leslogos {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                bottom: 36px;
+            }
+
+        }
+
+        #special {
+            margin-right: 168px;
+        }
+
+        #special2 {
+            width: 115px;
+            margin-right: 135px;
+        }
+
+        #special3 {
+            margin-right: 150px;
+            padding: 0;
+            display: inline-flex;
+
+            #suitepart1 {
+                margin-left: 10px;
+            }
+
+            ul {
+                margin-top: 60px;
+                margin-left: -58px;
+
+
+
+            }
+        }
+
+        #special4 {
+            width: 145px;
+            li{
+                display: inline-flex;
+                img{
+                    margin-right: 7px;
+                }
+            }
+        }
+    }
+
+}

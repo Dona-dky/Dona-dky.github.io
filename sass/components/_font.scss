@@ -1,0 +1,236 @@
+$grandetaille:50px;
+$purplec:#7e76f9;
+$grayf:#42495b;
+$grayc:#7a839e;
+$bluef:#1000ff;
+
+//commun
+.avantitrepetit {
+    margin: 0 6.4px 6px 0;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.35;
+    color: $purplec;
+}
+
+.grostitre {
+    font-family: Poppins;
+    font-size: $grandetaille;
+    font-weight: 600;
+    line-height: 1.52;
+    color: $grayf;
+}
+
+.aprestitre {
+    color: $grayc;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+}
+
+
+//begin
+
+.txtheader {
+    h1 {
+        width: 547px;
+        font-size: 50px;
+        line-height: 1.6;
+        color: #42495b;
+    }
+
+    h1:nth-child(2) {
+        font-size: 74px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 34px;
+        max-width: 341px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #7a839e;
+    }
+}
+
+
+
+//Who We Are
+
+//What We Offer
+
+#wow {
+    margin-bottom: 8px;
+    font-family: Lato;
+    font-size: 25px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+
+}
+
+.petititre {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: $grayf;
+    margin-bottom: 38px;
+    margin-top: 37.6px;
+}
+
+.petitexte {
+    width: 302.3px;
+    height: 130px;
+    margin-bottom: 51px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: left;
+    color: $grayf;
+}
+
+#paslui {
+    width: 316px;
+}
+
+//Our Pricing
+
+.moyentitre {
+    height: 37px;
+    margin-bottom: 69px;
+    font-family: Lobster;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: center;
+    color: $grayf;
+}
+
+.moyentexte {
+    width: 290.5px;
+    height: 76px;
+    margin: 69px auto 36px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: center;
+    color: $grayc;
+}
+
+.price {
+    height: 43px;
+    margin: 36px auto 40px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: $bluef;
+}
+
+//Newsletter
+
+.txtavantfooter {
+    h2 {
+        display: inline-flex;
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #42495b;
+        margin-right: 8px;
+    }
+
+    h2:nth-child(3) {
+        font-weight: 600;
+    }
+}
+
+.part1 {
+    .spec {
+        margin-bottom: 24.6px;
+        font-size: 50px;
+        font-weight: normal;
+        line-height: 0.51;
+        text-align: center;
+        color: #ffffff;
+
+        :nth-child(2) {
+            margin: 24.6px 0 23px;
+            font-size: 19px;
+            line-height: 1.81;
+            color: #ffffff;
+            font-size: 31px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+        }
+
+
+    }
+
+    .unpetititre {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    ul {
+        margin-top: 30px;
+
+        li {
+            list-style: none;
+
+            a {
+
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 2.25;
+                letter-spacing: normal;
+                text-align: left;
+                color: #ffffff;
+                text-decoration: none;
+            }
+        }
+    }
+
+}
